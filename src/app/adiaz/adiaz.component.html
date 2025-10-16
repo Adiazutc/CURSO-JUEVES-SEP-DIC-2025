@@ -1,0 +1,27 @@
+<div class="portfolio-container">
+  <div class="header">
+    <img [src]="imageUrl" alt="Alan avatar" class="avatar" />
+    <h1>{{ name }}</h1>
+    <p>{{ description }}</p>
+  </div>
+
+  <section class="about">
+    <h2>🧑‍💻 Sobre mí</h2>
+    <p>
+      Soy un desarrollador apasionado por el frontend, especializado en Angular, y fan de las monas chinas. Combino código limpio con diseños kawaii.
+    </p>
+  </section>
+
+  <section class="projects">
+    <h2>💼 Proyectos</h2>
+    <ul>
+      <li><strong>Waifu Finder</strong> – Una app para encontrar tu waifu ideal usando IA 🤖</li>
+      <li><strong>AnimeList</strong> – Clon de MyAnimeList con Angular y Firebase</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>📬 Contacto</h2>
+    <p>¿Quieres contactarme? ¡Mándame un correo a <a href="mailto:{{ email }}">{{ email }}</a>!</p>
+  </section>
+</div>
